@@ -4,6 +4,25 @@
 
 Repositório das aulas de Programação Mobile II com os professores João Siles e Najara Gabriela 
 
+## 🛠️ Como executar o programa 
+
+- Passo 1: Copie o código do repositório e, **com o terminal, clone o repositório em uma pasta de fácil acesso *(ou cole o código abaixo)*** 
+<img src = "img/Passo0.jpg">
+<img src = "img/Passo1.jpg">
+```COLE O CÓDIGO: git clone https://github.com/possatogabriel/PAMII-Gabriel-Possato.git```
+
+- Passo 2: Abra a pasta do projeto ***(Aulas)*, e no terminal, instale o "npm" *(cole o código abaixo)***
+<img src = "img/Passo2.jpg">
+```COLE O CÓDIGO: npm install```
+
+- Passo 3: Após a instalação, **inicie o projeto *(cole o código abaixo)***
+<img src = "img/Passo3.jpg">
+```COLE O CÓDIGO: npm start```
+
+- Passo 4: Abra o projeto no seu navegador de preferência ***(aperte "W" para abrir no navegador padrão do sistema ou cole o link na barra de busca)***
+<img src = "img/Passo4.jpg">
+```COLE O CÓDIGO: http://localhost:8081```
+
 ## 💻 Tecnologias Utilizadas
 `Trabalhado durante as aulas:`
 
