@@ -4,6 +4,11 @@
 
 Repositório das aulas de Programação Mobile II com os professores João Siles e Najara Gabriela 
 
+## 💻 Tecnologias Utilizadas
+`Trabalhado durante as aulas:`
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height = "40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height = "40"/> <img src="./img/expo.svg" height = "40">
+
 ## 🛠️ Como executar o programa 
 
 - Passo 1: Copie o código do repositório e, **com o terminal, clone o repositório em uma pasta de fácil acesso *(ou cole o código abaixo)*** 
@@ -26,11 +31,6 @@ Repositório das aulas de Programação Mobile II com os professores João Siles
 <img src = "img/Passo4.jpg">
 
 ```COLE O CÓDIGO: http://localhost:8081```
-
-## 💻 Tecnologias Utilizadas
-`Trabalhado durante as aulas:`
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height = "40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height = "40"/> <img src="./img/expo.svg" height = "40">
 
 ## 🙋 Autores
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/136634888?v=4" width=80 alt = "Ícone da Foto de Perfil"> <br> <sub> Gabriel Possato </sub>](https://github.com/possatogabriel)
