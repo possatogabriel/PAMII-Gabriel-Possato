@@ -1,51 +1,63 @@
 import React from 'react';
-import { Text, Button, View, StyleSheet } from 'react-native';
+import {Text, Button, View, StyleSheet} from 'react-native';
 
-export default class Contador extends React.Component {
-    constructor() {
+// >:3 //
+// >=3 //
+
+export default class Contador extends React.Component{
+    constructor(){
         super();
         this.state = {
             contador: 0,
         };
-    }
-    Decrementar() {
+    };
+
+    Decrementar(){
         this.setState({
             contador: this.state.contador - 1
         });
-    }
-    Incrementar() {
+    };
+
+    Incrementar(){
         this.setState({
             contador: this.state.contador + 1
         });
     }
-    render() {
-        return (
+    render(){
+        return(
             <View>
-                <View style = {styles.texto}>
-                    <Text> {this.state.contador} </Text>
+                <View style={styles.texto}>
+                    <Text>{this.state.contador}</Text>
                 </View>
-                <View style = {styles.botoes}>
-                    <Button
-                        style={styles.botao1}
-                        title="Aumenta"
-                        onPress={this.Incrementar.bind(this)}>
-                    </Button>
+                
+                <View style={styles.botões}>
+                    <Button 
+                    style={styles.botão1}
+                    title="Aumenta"
+                    onPress={this.Incrementar.bind(this)}/>
+
+                    <Button 
+                    style={styles.botão2}
+                    title="Diminui"
+                    onPress={this.Decrementar.bind(this)}/>
                 </View>
             </View>
-        )
+        );
     }
 }
 
 const styles = StyleSheet.create({
-    botoes: {
-        display: 'flex', 
+    botões:{
+        gap: 20,
+        top: 220,
+        height: 40,
+        display: 'flex',
         flexDirection: 'row',
         alignSelf: 'center',
-        top: 220,
-        height: 40, 
     },
+
     texto: {
         alignItems: 'center',
-        top: 200
+        top: 200,
     },
-});
+})
